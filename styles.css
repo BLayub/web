@@ -1,0 +1,142 @@
+/* Estilos para el encabezado */
+header {
+    background: #09809e;
+    background-size: cover;
+    color: rgb(223, 227, 235);
+    text-align: center;
+    padding: 50px 0;
+}
+h1 {
+    font-size: 47px;  
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.imagen-destacada {
+    width: 300px; /* Ancho de la imagen */
+    height: 235px; /* Altura de la imagen */
+}
+.imagen-posicionada {
+    position: relative; /* Establece la posición relativa */
+    width: 20%; /* Ancho del contenedor */
+    height: 100px; /* Altura del contenedor */
+}
+
+.imagen-posicionada {
+    position: absolute; /* Establece la posición absoluta */
+    top: 0; /* Posición verticalmente centrada */
+    left: 0; /* Posición horizontalmente centrada */
+    transform: translate(30%, 50%); /* Centra la imagen */
+    border-radius: 20%; /* los bordes de la imagen */
+    border: 3px solid black; /*  borde negro */
+    padding: 0px; /* espacio entre el borde y la imagen */
+
+}
+
+
+/* Estilos para la navegación */
+nav {
+    background-color: #8b8d0f;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #f2fa81;
+    font-size: 50px;
+    border-bottom: 2px solid #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del chat */
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluir el padding y border en el width */
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
